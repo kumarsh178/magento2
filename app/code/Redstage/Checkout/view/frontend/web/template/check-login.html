@@ -1,0 +1,26 @@
+<!--Use 'stepCode' as id attribute-->
+<li id="step_code" data-bind="fadeVisible: isVisible">
+<div class="step-title" data-bind="i18n: stepTitle" data-role="title"></div>
+    <div id="checkout-step-title"
+         class="step-content"
+         data-role="content">
+         <!--<p>The customer is <span data-bind="if: !isLogedIn">not</span> Logged-in</p>-->
+        <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+            <div style="padding: 10px 0px;">
+                <label class="label" >
+                    <span>Custom Signature </span>
+                </label>
+                <div class="Control">
+                   <input type="text" name="security_number" id="security_number">
+                </div>
+            </div>
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <button data-role="opc-continue" type="submit" class="button action continue primary">
+                        <span><!-- ko i18n: 'Next'--><!-- /ko --></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</li>

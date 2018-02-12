@@ -1,0 +1,1 @@
+D:/xampp/htdocs/magento2/vendor/dotmailer/dotmailer-magento2-extension/view/frontend/web/js/emailCapture.js

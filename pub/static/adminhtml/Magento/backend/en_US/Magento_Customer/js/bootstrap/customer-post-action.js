@@ -1,0 +1,1 @@
+D:/xampp/htdocs/magento2/vendor/magento/module-customer/view/adminhtml/web/js/bootstrap/customer-post-action.js

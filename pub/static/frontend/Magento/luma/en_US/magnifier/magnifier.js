@@ -1,0 +1,1 @@
+D:/xampp/htdocs/magento2/lib/web/magnifier/magnifier.js
